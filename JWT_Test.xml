@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="8" name="JWT_Test">
+    <Basepaths>/jwt_test</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1495634900660</CreatedAt>
+    <CreatedBy>siddharth</CreatedBy>
+    <Description></Description>
+    <DisplayName>JWT_Test</DisplayName>
+    <LastModifiedAt>1495634900660</LastModifiedAt>
+    <LastModifiedBy>siddharth</LastModifiedBy>
+    <Policies>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Flow-Callout-1</Policy>
+        <Policy>Verify-API-Key-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://jwt.js</Resource>
+        <Resource>node://node_modules_fs.zip</Resource>
+        <Resource>node://node_modules_jsonwebtoken.zip</Resource>
+        <Resource>node://package.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

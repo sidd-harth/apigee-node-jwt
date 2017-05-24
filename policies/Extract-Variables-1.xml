@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-Variables-1">
+    <DisplayName>Extract Variables-1</DisplayName>
+    <Properties/>
+    <Source>request</Source>
+    <Header name="Authorization">
+        <Pattern ignoreCase="false">Bearer {jwtToken}</Pattern>
+    </Header>
+</ExtractVariables>
